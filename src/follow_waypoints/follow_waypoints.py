@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import threading
 import rospy
@@ -223,3 +223,6 @@ def main():
                            transitions={'success':'GET_PATH'})
 
     outcome = sm.execute()
+    
+ if __name__ == "__main__":
+ 	main()
